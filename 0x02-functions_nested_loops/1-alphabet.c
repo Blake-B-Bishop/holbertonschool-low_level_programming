@@ -2,13 +2,13 @@
 /**
  * print_alphabet - oh, yes please
  *
- * Return: Always 0.
+ * Return: void
  */
 void print_alphabet(void)
 {
 	char c;
 
-	for (c = 'a'; c <= 'z'; ++c)
+	for (c = 'a'; c <= 'z'; c++)
 	{
 		_putchar(c);
 	}
