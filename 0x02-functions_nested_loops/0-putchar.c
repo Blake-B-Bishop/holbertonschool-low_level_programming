@@ -7,5 +7,5 @@
 int main(void)
 {
 	printf("_putchar\n");
-	retun (0);
+	return (0);
 }
