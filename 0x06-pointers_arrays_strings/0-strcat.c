@@ -2,7 +2,7 @@
 #include <stdio.h>
 
 /**
- * _strcat - Mixes two strings
+ * _strcat - Concatenates two strings
  * @dest: Destination string
  * @src: Source string
  * Return: Pointer to resulting string dest
