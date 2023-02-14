@@ -1,4 +1,4 @@
-include "holberton.h"
+#include "holberton.h"
 /**
  *cap_string - function that capitalizes all words of a string
  *@str: string
@@ -33,4 +33,3 @@ while (str[index])
 	}
 return (str);
 }
-
