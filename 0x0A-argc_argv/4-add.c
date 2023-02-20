@@ -3,15 +3,15 @@
 #include <stdlib.h>
 
 /**
- *main - adds two numbers
- *@argc: arguement counter
- *@argv: arguement vector
- *Return: comes back 0
+ * main - Adds numbers
+ * @argc: Argument counter
+ * @argv: Argument vector
+ * Return: Always zero
  */
 
 int main(int argc, char *argv[])
 {
-	int i, d, sum = 0;
+int i, d, sum = 0;
 	for (i = 1; i < argc; i++)
 	{
 		for (d = 0; argv[i][d]; d++)
@@ -21,7 +21,7 @@ int main(int argc, char *argv[])
 				printf("Error\n");
 				return (1);
 			}
-		}	
+		}
 		sum += atoi(argv[i]);
 	}
 	printf("%d\n", sum);

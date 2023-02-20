@@ -3,8 +3,8 @@
 
 /**
  * main - Prints number of all the args content
- * @argc: argument count
- * @argv: argument vector
+ * @argc: Argument count
+ * @argv: Argument vector
  * Return: Always zero
  */
 
@@ -16,6 +16,6 @@ int main(int argc, char *argv[])
 	{
 		printf("%s\n", argv[i]);
 	}
-	
+
 	return (0);
 }

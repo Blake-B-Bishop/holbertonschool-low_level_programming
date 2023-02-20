@@ -3,15 +3,16 @@
 #include <stdlib.h>
 
 /**
- * main - multiply two number pulled from the argv numbers
- * @argc: argument count
- * @argv: argument vector
- * Return: ITS STILL 0
+ * main - multiply two numbers pulled from th argv
+ * @argc: Argument count
+ * @argv: Argument vector
+ * Return: Always zero
  */
+
 int main(int argc, char *argv[])
 {
 	int j1 = 0, j2 = 0;
-	
+
 	if (argc == 3)
 	{
 		j1 = atoi(argv[1]);
