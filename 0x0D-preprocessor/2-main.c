@@ -2,7 +2,7 @@
 
 /**
  * main - prints name
- * Return - ZERO
+ * Return - Always zero
  */
 int main(void)
 {
