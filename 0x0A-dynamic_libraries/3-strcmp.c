@@ -1,9 +1,10 @@
 #include "main.h"
+
 /**
- *_strcmp - function that compares two strings
- *@s1: string one
- *@s2: string two
- *Return: im bored of all of this tbh
+ * _strcmp - compares two strings
+ * @s1: container of string 1
+ * @s2: container of string 2
+ * Return: 0 if the strings are the same
  */
 
 int _strcmp(char *s1, char *s2)
@@ -13,5 +14,6 @@ int _strcmp(char *s1, char *s2)
 		s1++;
 		s2++;
 	}
+	
 	return (*s1 - *s2);
 }

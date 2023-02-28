@@ -6,18 +6,33 @@
  * @c: character to search
  * Return: return if 0
  */
+#include "main.h"
+
+/**
+ *  * _strchr - locate character in string
+ *   * @s: source string
+ *    * @c: character to find
+ *     *
+ *      * Return: the string from charcter found
+ *       */
 
 char *_strchr(char *s, char c)
 {
-	int i;
+	int a = 0, b;
 
-	for (i = 0; s[i] >= '\0'; i++)
+	while (s[a])
 	{
-		if (s[i] == c)
+		a++;
+	}
+	
+	for (b = 0; b <= a; b++)
+	{
+		if (c == s[b])
 		{
-			return (s + i);
+			s += b;
+			return (s);
 		}
 	}
 
-	return (0);
+	return ('\0');
 }
